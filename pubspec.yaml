@@ -98,16 +98,20 @@ flavorizr:
 
       android:
         applicationId: "com.icab.manager.dev"
+        firebase:
+          config: "firebase/dev/google-services.json"
 
       ios:
-        bundleId: "com.icab.manage.dev"
+        bundleId: "com.icab.manager.dev"
 
     icab:
       app:
         name: "ICAB Committee"
 
       android:
-        applicationId: "com.icab.manage"
+        applicationId: "com.icab.manager"
+        firebase:
+          config: "firebase/icab/google-services.json"
 
       ios:
-        bundleId: "com.icab.manage"
+        bundleId: "com.icab.manager"

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639564774672",
+    "project_id": "commitee-manager",
+    "storage_bucket": "commitee-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639564774672:android:181c2a9d2c779462507995",
+        "android_client_info": {
+          "package_name": "com.icab.manager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639564774672-c580prdepm8iprgn9c35mtn02pmb4eji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiYaFPQ3GLEG8TQhpJ4uDU_IQ2Y2nsMrw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639564774672-c580prdepm8iprgn9c35mtn02pmb4eji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_icab.dart
+ASSET_PREFIX=icab
+BUNDLE_NAME=ICAB Committee
+BUNDLE_DISPLAY_NAME=ICAB Committee
