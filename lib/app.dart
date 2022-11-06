@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 import 'flavors.dart';
 import 'pages/my_home_page.dart';
@@ -7,11 +8,9 @@ import 'pages/my_home_page.dart';
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: F.title,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData.dark(),
       home: _flavorBanner(
         child: MyHomePage(),
         show: kDebugMode,

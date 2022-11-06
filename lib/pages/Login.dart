@@ -17,21 +17,16 @@ class MyHomePage extends StatelessWidget {
       }
     });
 
-    return Home();
-  }
-}
 
-class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
-
-  @override
-  State<Home> createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
-  @override
-  Widget build(BuildContext context) {
-
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(F.title),
+      ),
+      body: Center(
+        child: Text(
+          'Hello ${F.title}',
+        ),
+      ),
+    );
   }
 }
