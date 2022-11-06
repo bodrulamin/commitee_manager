@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main_common.dart
+ASSET_PREFIX=common
+BUNDLE_NAME=Committee Manager
+BUNDLE_DISPLAY_NAME=Committee Manager
