@@ -29,7 +29,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
-  flutter_flavorizr: ^2.1.4
+  flutter_flavorizr: ^2.1.5
   flutter:
     sdk: flutter
 
@@ -37,6 +37,9 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  firebase_auth: ^4.0.1
+  firebase_core: ^2.1.1
+
 
 dev_dependencies:
   flutter_test:
@@ -92,26 +95,38 @@ flutter:
   # see https://flutter.dev/custom-fonts/#from-packages
 flavorizr:
   flavors:
+    common:
+      app:
+        name: "Committee Manager"
+
+      android:
+        applicationId: "committee.manager"
+        firebase:
+          config: "firebase/common/google-services.json"
+
+      ios:
+        bundleId: "committee.manager"
+
     dev:
       app:
         name: "Development Committee Manager"
 
       android:
-        applicationId: "com.icab.manager.dev"
+        applicationId: "committee.manager.dev"
         firebase:
           config: "firebase/dev/google-services.json"
 
       ios:
-        bundleId: "com.icab.manager.dev"
+        bundleId: "committee.manager.dev"
 
     icab:
       app:
-        name: "ICAB Committee"
+        name: "ICAB Committee Manager"
 
       android:
-        applicationId: "com.icab.manager"
+        applicationId: "committee.manager.icab"
         firebase:
           config: "firebase/icab/google-services.json"
 
       ios:
-        bundleId: "com.icab.manager"
+        bundleId: "committee.manager.icab"

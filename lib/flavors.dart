@@ -1,4 +1,5 @@
 enum Flavor {
+  COMMON,
   DEV,
   ICAB,
 }
@@ -10,10 +11,12 @@ class F {
 
   static String get title {
     switch (appFlavor) {
+      case Flavor.COMMON:
+        return 'Committee Manager';
       case Flavor.DEV:
         return 'Development Committee Manager';
       case Flavor.ICAB:
-        return 'ICAB Committee';
+        return 'ICAB Committee Manager';
       default:
         return 'title';
     }
